@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    color: #fff;
+}
+
+body {
+    min-height: 100vh;
+    background-color: white;
+
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem 0.5rem;
+}
+
+.mainScreen {
+    height: 90vh;
+    display: flex;
+    color: white;
+  }
+
+  .mainLeft {
+    width: 40%;
+    text-align: center;
+    background-color: #a69b89;
+    color: #22281e;
+    padding-top: 10%;
+  }
+  
+  .mainRight {
+    border-top: 5px solid #a69b89;
+    border-bottom: 58px solid #a69b89;
+    width: 60%;
+    background-color: #2d3429;
+    padding: 25px 40px;
+    overflow: auto;
+  }
+
+.container1 {
+	color: #fff;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 38%;
+    background-color: rgba(0, 0, 106, 0.801);
+}
+
+.container2 {
+    width: 500px;
+    height: 690px;			  
+    display: flex;
+    flex-direction: column;		
+    justify-content: flex-start;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 35%;
+    background-color: rgba(24, 5, 147, 0.4);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+a,
+a:visited {
+    color: #fff;
+}
+
+input[type="text"],
+input[type="password"],
+button,
+textarea {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+}
+
+label,
+button {
+    margin-top: 12px;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: #fff;
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions>svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}
+
+.contentImg {
+    height: 200px;
+    object-fit: contain;
+}
+
+.homeCard {
+
+    padding: 15px
+}
+
+.homeContentContainer {
+    padding-top: 5%;
+
+}
+
+.btn-primary {
+    background-color: navy;
+}
+.homecontainer0 {
+    background-color: rgba(255, 255, 255, 0.678);
+    width: 100vw;
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.homecontainer1 {
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+
+}
+
+.mainNavBar {
+    background-color: navy;
+}
+
+.homecontainer2 {
+    background-color: rgb(146, 173, 210);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: medium;
+
+}
+
+.homecontainer3 {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.homecontainer4 {
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: medium;
+}
+
+.navContainer1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emptyDiv {
+    visibility: hidden;
+}
+
+#hyperlinks{
+    color: black;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
